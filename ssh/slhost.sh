@@ -22,7 +22,7 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=ipgivpn.my.id
+DOMAIN=domain
 SUB_DOMAIN=aot-${sub}.ipgivpn.my.id
 NS_DOMAIN=aotns-${sub}.ipgivpn.my.id
 CF_ID=admin@ipgivpn.my.id
