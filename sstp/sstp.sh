@@ -13,7 +13,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givps/autoset/master/sstp"
+akbarvpn="raw.githubusercontent.com/buble-max/autoset/master/sstp"
 
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 MYIP2="s/xxxxxxxxx/$MYIP/g";

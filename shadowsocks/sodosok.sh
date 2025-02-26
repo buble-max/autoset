@@ -13,7 +13,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givps/autoset/master/shadowsocks"
+akbarvpn="raw.githubusercontent.com/buble-max/autoset/master/shadowsocks"
 
 source /etc/os-release
 OS=$ID

@@ -13,16 +13,16 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givps/autoset/master/ssh"
+akbarvpn="raw.githubusercontent.com/buble-max/autoset/master/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/givps/autoset/master/xray"
+akbarvpnn="raw.githubusercontent.com/buble-max/autoset/master/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-akbarvpnnn="raw.githubusercontent.com/givps/autoset/master/trojango"
+akbarvpnnn="raw.githubusercontent.com/buble-max/autoset/master/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-akbarvpnnnn="raw.githubusercontent.com/givps/autoset/master/stunnel5"
+akbarvpnnnn="raw.githubusercontent.com/buble-max/autoset/master/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -36,10 +36,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=akbarstorevpn
-organizationalunit=akbarstorevpn
-commonname=akbarstorevpn
-email=akbarssh21@gmail.com
+organization=rifkimaulana.me
+organizationalunit=rifkimaulana.me
+commonname=rifkimaulana.me
+email=rifkiibul@gmail.com
 
 cd
 

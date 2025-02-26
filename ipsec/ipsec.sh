@@ -16,7 +16,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givps/autoset/master/ipsec"
+akbarvpn="raw.githubusercontent.com/buble-max/autoset/master/ipsec"
 
 VPN_IPSEC_PSK='myvpn'
 NET_IFACE=$(ip -o $NET_IFACE -4 route show to default | awk '{print $5}');

@@ -61,16 +61,16 @@ fun_att () {
 apt install ncurses-utils -y
 mkdir /etc/slowdns
 cd /etc/slowdns
-wget https://github.com/buble-max/dnstt/raw/main/dns-server; chmod +x dns-server
-wget https://raw.githubusercontent.com/buble-max/dnstt/main/remove-slow; chmod +x remove-slow
-wget https://raw.githubusercontent.com/buble-max/dnstt/main/slowdns-info; chmod +x slowdns-info
-wget https://raw.githubusercontent.com/buble-max/dnstt/main/slowdns-drop; chmod +x slowdns-drop
-wget https://raw.githubusercontent.com/buble-max/dnstt/main/slowdns-ssh; chmod +x slowdns-ssh
-wget https://raw.githubusercontent.com/buble-max/dnstt/main/slowdns-ssl; chmod +x slowdns-ssl
-wget https://raw.githubusercontent.com/buble-max/dnstt/main/slowdns-socks; chmod +x slowdns-socks
-wget https://raw.githubusercontent.com/buble-max/dnstt/main/slowdns-customservice; chmod +x slowdns-customservice
-wget -qO /bin/slowdns https://raw.githubusercontent.com/buble-max/dnstt/main/slowdns && chmod +x /bin/slowdns
-wget https://raw.githubusercontent.com/buble-max/dnstt/main/stopdns; chmod +x stopdns
+wget https://github.com/buble-max/autoset/SLDNS/raw/main/dns-server; chmod +x dns-server
+wget https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/remove-slow; chmod +x remove-slow
+wget https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/slowdns-info; chmod +x slowdns-info
+wget https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/slowdns-drop; chmod +x slowdns-drop
+wget https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/slowdns-ssh; chmod +x slowdns-ssh
+wget https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/slowdns-ssl; chmod +x slowdns-ssl
+wget https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/slowdns-socks; chmod +x slowdns-socks
+wget https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/slowdns-customservice; chmod +x slowdns-customservice
+wget -qO /bin/slowdns https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/slowdns && chmod +x /bin/slowdns
+wget https://raw.githubusercontent.com/buble-max/autoset/SLDNS/main/stopdns; chmod +x stopdns
 }
 fun_bar 'fun_att'
 echo -e "CONFIGURING FIREWALL..."

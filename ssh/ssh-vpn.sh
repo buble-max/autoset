@@ -14,16 +14,16 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givps/autoset/master/ssh"
+akbarvpn="raw.githubusercontent.com/buble-max/autoset/master/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/givps/autoset/master/xray"
+akbarvpnn="raw.githubusercontent.com/buble-max/autoset/master/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-akbarvpnnn="raw.githubusercontent.com/givps/autoset/master/trojango"
+akbarvpnnn="raw.githubusercontent.com/buble-max/autoset/master/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-akbarvpnnnn="raw.githubusercontent.com/givps/autoset/master/stunnel5"
+akbarvpnnnn="raw.githubusercontent.com/buble-max/autoset/master/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -375,7 +375,7 @@ wget -O addhost "https://${akbarvpn}/addhost.sh"
 wget -O slhost "https://${akbarvpn}/slhost.sh"
 wget -O about "https://${akbarvpn}/about.sh"
 wget -O limitspeed "https://${akbarvpn}/limitspeed.sh"
-wget -O menu "https://raw.githubusercontent.com/givps/autoset/master/update/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/buble-max/autoset/master/update/menu.sh"
 wget -O addssh "https://${akbarvpn}/addssh.sh"
 wget -O trialssh "https://${akbarvpn}/trialssh.sh"
 wget -O delssh "https://${akbarvpn}/delssh.sh"
@@ -421,28 +421,28 @@ wget -O addtrgo "https://${akbarvpnnn}/addtrgo.sh"
 wget -O deltrgo "https://${akbarvpnnn}/deltrgo.sh"
 wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
 wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
-wget -O portsshnontls "https://raw.githubusercontent.com/givps/autoset/master/websocket/portsshnontls.sh"
-wget -O portsshws "https://raw.githubusercontent.com/givps/autoset/master/websocket/portsshws.sh"
+wget -O portsshnontls "https://raw.githubusercontent.com/buble-max/autoset/master/websocket/portsshnontls.sh"
+wget -O portsshws "https://raw.githubusercontent.com/buble-max/autoset/master/websocket/portsshws.sh"
 
-wget -O ipsaya "https://raw.githubusercontent.com/givps/autoset/master/update/ipsaya.sh"
-wget -O sshovpnmenu "https://raw.githubusercontent.com/givps/autoset/master/update/sshovpn.sh"
-wget -O l2tpmenu "https://raw.githubusercontent.com/givps/autoset/master/update/l2tpmenu.sh"
-wget -O pptpmenu "https://raw.githubusercontent.com/givps/autoset/master/update/pptpmenu.sh"
-wget -O sstpmenu "https://raw.githubusercontent.com/givps/autoset/master/update/sstpmenu.sh"
-wget -O wgmenu "https://raw.githubusercontent.com/givps/autoset/master/update/wgmenu.sh"
-wget -O ssmenu "https://raw.githubusercontent.com/givps/autoset/master/update/ssmenu.sh"
-wget -O ssrmenu "https://raw.githubusercontent.com/givps/autoset/master/update/ssrmenu.sh"
-wget -O vmessmenu "https://raw.githubusercontent.com/givps/autoset/master/update/vmessmenu.sh"
-wget -O vlessmenu "https://raw.githubusercontent.com/givps/autoset/master/update/vlessmenu.sh"
-wget -O grpcmenu "https://raw.githubusercontent.com/givps/autoset/master/update/grpcmenu.sh"
-wget -O grpcupdate "https://raw.githubusercontent.com/givps/autoset/master/update/grpcupdate.sh"
-wget -O trmenu "https://raw.githubusercontent.com/givps/autoset/master/update/trmenu.sh"
-wget -O trgomenu "https://raw.githubusercontent.com/givps/autoset/master/update/trgomenu.sh"
-wget -O setmenu "https://raw.githubusercontent.com/givps/autoset/master/update/setmenu.sh"
-wget -O slowdnsmenu "https://raw.githubusercontent.com/givps/autoset/master/update/slowdnsmenu.sh"
-wget -O running "https://raw.githubusercontent.com/givps/autoset/master/update/running.sh"
-wget -O updatemenu "https://raw.githubusercontent.com/givps/autoset/master/update/updatemenu.sh"
-wget -O sl-fix "https://raw.githubusercontent.com/givps/autoset/master/sslh-fix/sl-fix"
+wget -O ipsaya "https://raw.githubusercontent.com/buble-max/autoset/master/update/ipsaya.sh"
+wget -O sshovpnmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/sshovpn.sh"
+wget -O l2tpmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/l2tpmenu.sh"
+wget -O pptpmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/pptpmenu.sh"
+wget -O sstpmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/sstpmenu.sh"
+wget -O wgmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/wgmenu.sh"
+wget -O ssmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/ssmenu.sh"
+wget -O ssrmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/ssrmenu.sh"
+wget -O vmessmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/vmessmenu.sh"
+wget -O vlessmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/vlessmenu.sh"
+wget -O grpcmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/grpcmenu.sh"
+wget -O grpcupdate "https://raw.githubusercontent.com/buble-max/autoset/master/update/grpcupdate.sh"
+wget -O trmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/trmenu.sh"
+wget -O trgomenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/trgomenu.sh"
+wget -O setmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/setmenu.sh"
+wget -O slowdnsmenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/slowdnsmenu.sh"
+wget -O running "https://raw.githubusercontent.com/buble-max/autoset/master/update/running.sh"
+wget -O updatemenu "https://raw.githubusercontent.com/buble-max/autoset/master/update/updatemenu.sh"
+wget -O sl-fix "https://raw.githubusercontent.com/buble-max/autoset/master/sslh-fix/sl-fix"
 
 chmod +x sl-fix
 chmod +x ipsaya

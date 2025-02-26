@@ -13,9 +13,9 @@ mkdir -p /usr/local/bin/
 mkdir -p /etc/shadowsocks
 rm -rf /usr/bin/shadowhost
 cd /usr/bin
-wget -O addss-p "https://raw.githubusercontent.com/givps/autoset/master/shadowsocks-plugin/addss-p.sh"
+wget -O addss-p "https://raw.githubusercontent.com/buble-max/autoset/master/shadowsocks-plugin/addss-p.sh"
 chmod +x addss-p
-wget -O delss "https://raw.githubusercontent.com/givps/autoset/master/shadowsocks/delss.sh"
+wget -O delss "https://raw.githubusercontent.com/buble-max/autoset/master/shadowsocks/delss.sh"
 cd
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear

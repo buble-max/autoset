@@ -17,7 +17,7 @@ echo "Checking VPS"
 clear
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/givps/autoset/master/wireguard"
+akbarvpn="raw.githubusercontent.com/buble-max/autoset/master/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then
@@ -102,9 +102,9 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O addwg "https://raw.githubusercontent.com/givps/autoset/master/wireguard/addwg.sh"
-wget -O delwg "https://raw.githubusercontent.com/givps/autoset/master/wireguard/delwg.sh"
-wget -O renewwg "https://raw.githubusercontent.com/givps/autoset/master/wireguard/renewwg.sh"
+wget -O addwg "https://raw.githubusercontent.com/buble-max/autoset/master/wireguard/addwg.sh"
+wget -O delwg "https://raw.githubusercontent.com/buble-max/autoset/master/wireguard/delwg.sh"
+wget -O renewwg "https://raw.githubusercontent.com/buble-max/autoset/master/wireguard/renewwg.sh"
 chmod +x addwg
 chmod +x delwg
 chmod +x renewwg

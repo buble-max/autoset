@@ -22,11 +22,11 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=domain
-SUB_DOMAIN=aot-${sub}.ipgivpn.my.id
-NS_DOMAIN=aotns-${sub}.ipgivpn.my.id
-CF_ID=admin@ipgivpn.my.id
-CF_KEY=df51a369af75b0f37f90bb7bf025ee3d2cc54
+DOMAIN=rifkimaulana.me
+SUB_DOMAIN=aot-${sub}.rifkimaulana.me
+NS_DOMAIN=aotns-${sub}.rifkimaulana.me
+CF_ID=rifkiibul@gmail.com
+CF_KEY=806c6bcb3c7094dffe67e8a7e8ebcf1a2271d
 set -euo pipefail
 IP=$(wget -qO- ipv4.icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."

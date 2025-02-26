@@ -95,5 +95,5 @@ echo -e "GET wss://bug.com/ HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[c
 echo -e "=============================="
 echo -e "Payload Websocket HTTP"
 echo -e "=============================="
-echo -e "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]"
+echo -e "GET / HTTP/1.1[crlf]Host: ${domain}[host][crlf]Upgrade: websocket[crlf][crlf]"
 echo -e "=============================="

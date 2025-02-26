@@ -71,7 +71,7 @@ echo -e "$y-------------------------------------------------$wh"
 echo -e " \e[1;34mClient Name \e[0m: $Name"
 echo -e " \e[1;34mExpired     \e[0m: $Exp2"
 echo -e "$y-------------------------------------------------$wh"
-echo -e "$yl            Telegram : t.me/givpn$wh"
+echo -e "$yl            CREATED BY : Massbrow$wh"
 echo -e "$y-------------------------------------------------$wh"
 read -p "Select From Options [ 1 - 20 ] : " menu
 case $menu in

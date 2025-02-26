@@ -28,31 +28,31 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/givps/autoset/master/ssh"
+akbarvpn="raw.githubusercontent.com/buble-max/autoset/master/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/givps/autoset/master/sstp"
+akbarvpnn="raw.githubusercontent.com/buble-max/autoset/master/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/givps/autoset/master/ssr"
+akbarvpnnn="raw.githubusercontent.com/buble-max/autoset/master/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/givps/autoset/master/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/buble-max/autoset/master/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/givps/autoset/master/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/buble-max/autoset/master/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/givps/autoset/master/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/givps/autoset/master/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/givps/autoset/master/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/givps/autoset/master/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/givps/autoset/master/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/ohp"
 
 
 # Getting
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m          ⇱ SCRIPT BY givps ⇲          \E[0m"
+echo -e "\E[44;1;39m          ⇱ SCRIPT BY buble-max ⇲          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
 apt install git curl -y >/dev/null 2>&1
@@ -89,16 +89,16 @@ wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install SlowDNS
-wget https://raw.githubusercontent.com/givps/autoset/master/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+wget https://raw.githubusercontent.com/buble-max/autoset/master/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
 # Informasi IP Saya dan Semua Port TCP UDP
-# wget https://raw.githubusercontent.com/givps/autoset/master/ipsaya.sh && chmod +x ipsaya.sh
+# wget https://raw.githubusercontent.com/buble-max/autoset/master/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray sl-grpc
-# wget https://raw.githubusercontent.com/givps/autoset/master/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+# wget https://raw.githubusercontent.com/buble-max/autoset/master/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 # install xray grpc
-# wget https://raw.githubusercontent.com/givps/autoset/master/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
+# wget https://raw.githubusercontent.com/buble-max/autoset/master/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 # install shadowsocks plugin
-# wget https://raw.githubusercontent.com/givps/autoset/master/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
+# wget https://raw.githubusercontent.com/buble-max/autoset/master/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
  
 
 rm -f /root/ssh-vpn.sh
@@ -200,7 +200,7 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
-echo "   -                Telegram : t.me/givpn" | tee -a log-install.txt
+echo "   -                script BY : Massbrow" | tee -a log-install.txt
 echo "$BGreen Auto reboot 10 Sec $NC"
 sleep 10
 rm -f setup.sh
