@@ -47,6 +47,7 @@ akbarvpnnnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/backup"
 akbarvpnnnnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/websocket"
 # Link Hosting Kalian Untuk Ohp
 akbarvpnnnnnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/ohp"
+akbarvpnnnnnnnnnnn="raw.githubusercontent.com/buble-max/autoset/master/SLDNS"
 
 
 # Getting
@@ -90,6 +91,7 @@ wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install SlowDNS
 wget https://raw.githubusercontent.com/buble-max/autoset/master/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+wget https://${akbarvpnnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Informasi IP Saya dan Semua Port TCP UDP
 # wget https://raw.githubusercontent.com/buble-max/autoset/master/ipsaya.sh && chmod +x ipsaya.sh
 #
